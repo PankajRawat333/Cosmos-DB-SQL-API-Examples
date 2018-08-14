@@ -1,6 +1,6 @@
 # Cosmos-DB-SQL-API-Examples
 
-## Count document in collection
+## Count documents in collection
 
 ```
 SELECT value count(c.id) FROM c
