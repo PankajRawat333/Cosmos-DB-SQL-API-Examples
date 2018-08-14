@@ -11,3 +11,6 @@ SELECT value count(c.id) FROM c
 ```
 SELECT top 2 value c.AssetType FROM c
 ```
+## Get documents using IN clause
+
+select * FROM c where c.Device[0].SerialNumber IN ('A1','B1','C1')
