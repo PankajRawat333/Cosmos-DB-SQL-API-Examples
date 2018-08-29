@@ -40,7 +40,7 @@ namespace ConsoleApp3
             if (documentClient == null)
             {
                 var endpointUrl = "https://catecosmos.documents.azure.com:443/";
-                var primaryKey = "o5RR73dDwfcDetx7Xr91kGs22QOkcgJgfMgyyJ8xKBbes6mooRtXY1vRo0gk5T5poFNAYviI9So53xsKgPiTsQ==";
+                var primaryKey = "73dDwfcDetx7Xr91kGs22QOkcgJgfMgyyJ8xKBbes6mooRtXY1vRo0gk5T5poFNAYviI9So53xsKgPiTsQ==";
 
                 documentClient = new DocumentClient(new Uri(endpointUrl), primaryKey);
                 await documentClient.OpenAsync();
